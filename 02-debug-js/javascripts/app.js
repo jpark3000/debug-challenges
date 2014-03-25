@@ -11,6 +11,7 @@
         $relArticle = $this.next('article');
 
     // Something else should happen here...
+    $('article').removeClass('expanded')
 
     if($relArticle.hasClass('expanded')) {
       return;
